@@ -4,7 +4,7 @@
 def multi_table(a):
     """Produce multiplication table printer for numbers one to ten."""
     for i in range(1, 11):
-        print(f'{a} * {i} = {a*1}')
+        print(f'{a} * {i} = {a*i}')
 
 if __name__ == '__main__':
     a = input('enter a number: ')
