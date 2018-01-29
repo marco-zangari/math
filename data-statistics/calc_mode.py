@@ -17,8 +17,8 @@ def calc_mode(nums):
     return modes
 
 if __name__ == '__main__':
-    scores = [7,8,9,10,9,9,9,4,5,6,1,5,6,1,5,6,7,8,6,1,10]
+    scores = [9,7,8,10,9,9,9,4,5,6,1,5,6,1,5,6,7,8,6,1,10]
     modes = calc_mode(scores)
-    print(f'The mode(s) of the list of numbers is:')
+    print(f'The mode(s) of the list of numbers is/are:')
     for mode in modes:
         print(mode)
