@@ -1,4 +1,4 @@
-"""Create a frequency table."""
+"""Create a frequency table with descending order of frequency."""
 
 from collections import Counter
 
